@@ -1,0 +1,195 @@
+name: presentation
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  scoped_model: ^2.0.0-nullsafety.0
+  watcher: ^1.0.1
+  lottie: ^1.2.1
+  spritewidget: ^0.9.17
+  flare_flutter: ^3.0.2
+  # nima: ^1.0.2
+  file_picker: ^4.3.2
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/fonts/GoogleSans/
+  - assets/flare/
+  - assets/example_presentation/
+  - assets/example_presentation/replace_values.json
+  # - assets/spritewidget/
+  - assets/example_presentation/external_files/images/misc/android_ambig.webp
+  - assets/example_presentation/external_files/images/misc/ios_ambig.webp
+  - assets/example_presentation/external_files/images/misc/ambiguous-device-ui.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-11.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-24.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-02.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-08.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-26.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-37.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-22.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-70.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-07.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-52.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-68.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-01.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-40.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-13.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-46.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-36.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-63.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-47.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-20.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-65.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-41.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-29.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-23.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-12.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-42.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-31.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-54.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-45.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-60.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-34.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-49.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-06.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-44.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-32.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-48.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-25.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-21.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-14.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-09.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-30.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-56.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-15.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-03.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-64.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-04.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-57.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-67.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-05.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-53.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-39.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-71.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-69.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-73.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-58.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-61.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-72.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-50.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-19.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-51.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-59.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-75.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-33.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-17.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-10.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-35.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-38.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-28.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-43.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-55.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-66.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-18.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-62.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-16.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-74.webp
+  - assets/example_presentation/external_files/images/team_portraits/flutter-team-27.webp
+  - assets/example_presentation/external_files//images/pillars_screen/flutter_pillars_logo.webp
+  - assets/example_presentation/external_files/images/pillars_screen/beautiful_inner_screen.webp
+  - assets/example_presentation/external_files/images/pillars_screen/iphone_xr_shell.webp
+  - assets/example_presentation/external_files/images/pillars_screen/fast_inner_screen.webp
+  - assets/example_presentation/external_files/images/pillars_screen/productive_inner_screen.gif
+  - assets/example_presentation/external_files/images/pillars_screen/productive_shell.webp
+  - assets/example_presentation/external_files/images/pillars_screen/open_shell.webp
+  - assets/example_presentation/external_files/images/pillars_screen/open_inner_screen.webp
+  - assets/example_presentation/external_files/images/misc/FL18_Slide_17A_v01.gif
+  - assets/example_presentation/external_files/images/misc/Flutter_1.0_evict_helper.webp
+  - assets/example_presentation/external_files/images/misc/FL18_Slide_17B_v01.gif
+  - assets/example_presentation/external_files/images/misc/mobile_shipped.webp
+  - assets/example_presentation/external_files/images/misc/mobile_designed.webp
+  - assets/example_presentation/external_files/images/misc/fortnightly.webp
+  - assets/example_presentation/external_files/images/misc/iphone_x_shell.webp
+  - assets/example_presentation/external_files/images/material/Basil with coder.gif
+  - assets/example_presentation/external_files/images/misc/laptop_shell.webp
+  - assets/example_presentation/external_files/images/misc/heart.webp
+  - assets/example_presentation/external_files/images/misc/material_full_screen.webp
+  - assets/example_presentation/external_files/images/material/Shrine.gif
+  - assets/example_presentation/external_files/images/misc/iPhone8Plus-Portrait-Silver.webp
+  - assets/example_presentation/external_files/images/material/Rally Carousel.gif
+  - assets/example_presentation/external_files/images/material/Crane.gif
+  - assets/example_presentation/external_files/images/2dimensions/2dimensionslogo.webp
+  - assets/example_presentation/external_files/images/misc/dart_logo.webp
+  - assets/example_presentation/external_files/images/firebase_screen/logo_lockup_firebase_horizontal.webp
+  - assets/example_presentation/external_files/images/firebase_screen/logo_lockup_flutter_horizontal.webp
+  - assets/example_presentation/external_files/images/firebase_screen/build better apps.webp
+  - assets/example_presentation/external_files/images/firebase_screen/improve app quality.webp
+  - assets/example_presentation/external_files/images/firebase_screen/grow your app.webp
+  - assets/example_presentation/external_files/images/misc/architecture.webp
+  - assets/example_presentation/external_files/images/supported_platforms/chrome.webp
+  - assets/example_presentation/external_files/images/supported_platforms/iphone.webp
+  - assets/example_presentation/external_files/images/supported_platforms/android.webp
+  - assets/example_presentation/external_files/images/supported_platforms/raspberry pi.webp
+  - assets/example_presentation/external_files/images/supported_platforms/mac.webp
+  - assets/example_presentation/external_files/images/supported_platforms/windows.webp
+  - assets/example_presentation/external_files/images/supported_platforms/chrome.webp
+  - assets/example_presentation/external_files/images/supported_platforms/iphone.webp
+  - assets/example_presentation/external_files/images/supported_platforms/android.webp
+  - assets/example_presentation/external_files/images/misc/desktop.webp
+  - assets/example_presentation/external_files/images/misc/FL18_Slide_97_v01.gif
+  - assets/example_presentation/external_files/images/misc/hummingbird_evict_helper.webp
+  - assets/example_presentation/external_files/images/misc/FL18_Slide_91A_v03.gif
+  - assets/example_presentation/external_files/images/misc/FL18-Slide-93-v01.gif
+  - assets/example_presentation/external_files/images/misc/FL18_Slide_91B_v03.gif
+  - assets/example_presentation/external_files/images/flutter_web_stable.png
+  - assets/example_presentation/external_files/images/flutter_web.png
+  - assets/example_presentation/external_files/images/flutter_web2.png
+  - assets/example_presentation/external_files/images/flutter_web3.png
+  - assets/example_presentation/external_files/images/flutter_web4.png
+  - assets/example_presentation/external_files/images/flutter_web5.png
+  - assets/example_presentation/external_files/images/flutter_web6.jpeg
+  - assets/example_presentation/external_files/images/flutter_web7.gif
+  - assets/example_presentation/external_files/images/flutter_web8.png
+  - assets/example_presentation/external_files/images/flutter_web9.png
+  - assets/example_presentation/external_files/images/flutter_plasma.png
+  - assets/example_presentation/external_files/images/movie_mart.jpg
+  - assets/example_presentation/external_files/lottie_animations/confetti.json
+
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSansNoLiga/GoogleSansNoLiga-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/GoogleSans/GoogleSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/GoogleSans/GoogleSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/GoogleSans/GoogleSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/GoogleSansNoLiga/GoogleSansNoLiga-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/GoogleSans/GoogleSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+    - family: RobotoMono
+      fonts:
+      - asset: assets/fonts/RobotoMono/RobotoMono-Regular.ttf
+        weight: 400
